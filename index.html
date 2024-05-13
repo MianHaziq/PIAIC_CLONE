@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+    
+</head>
+<body>
+
+<section>
+
+ <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center  space-x-3 rtl:space-x-reverse">
+        <img src="images/logopia.png" class="h-14 " alt="pia Logo">
+       
+    </a>
+    <div class="flex  md:space-x-0 rtl:space-x-reverse">
+  
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-green-700 rounded md:bg-transparent md:text-gray-900 md:p-0 md:dark:text-green-500  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 " aria-current="page">Press Release  </a>
+
+          
+         
+        </li>
+        <li>
+            <span href="#" >|  </span>
+  
+            
+           
+          </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0 md:dark:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
+        </li>   
+        <li>
+            <span href="#" >|  </span>
+  
+            
+           
+          </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-green-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Award +Plus Login</a>
+        </li>
+        <li>
+            <span href="#" >|  </span>
+  
+            
+           
+          </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0 md:dark:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Corporate Website</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+</section>
+<section>
+    <div class="flex justify-evenly mx-10 mt-24 mb-3">
+      <div class="relative inline-block text-left">
+        <span class="rounded-md shadow-sm">
+          <button type="button" class="inline-flex justify-center w-full rounded-md   bg-white text-sm font-medium text-black hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+            Where We Fly
+           
+          </button>
+        </span>
+  
+        <div class="opacity-0 invisible absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 1</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 2</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 3</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 4</a>
+        </div>
+      </div>
+      <div class="relative inline-block text-left">
+        <span class="rounded-md shadow-sm">
+          <button type="button" class="inline-flex justify-center w-full rounded-md bg-white text-sm font-medium text-black hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+            Where We Fly
+           
+          </button>
+        </span>
+  
+        <div class="opacity-0 invisible absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 1</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 2</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 3</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 4</a>
+        </div>
+      </div> <div class="relative inline-block text-left">
+        <span class="rounded-md shadow-sm">
+          <button type="button" class="inline-flex justify-center w-full rounded-md bg-white text-sm font-medium text-black hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+            Where We Fly
+           
+          </button>
+        </span>
+  
+        <div class="opacity-0 invisible absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 1</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 2</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 3</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 4</a>
+        </div>
+      </div> <div class="relative inline-block text-left">
+        <span class="rounded-md shadow-sm">
+          <button type="button" class="inline-flex justify-center w-full rounded-md  bg-white text-sm font-medium text-black hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+            Where We Fly
+           
+          </button>
+        </span>
+  
+        <div class="opacity-0 invisible absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 1</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 2</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 3</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Option 4</a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- crousel -->
+
+<!-- This is an example component -->
+<div class="sliderAx ">
+  <div class="absolute m-40 my-72  " >
+<nav class="flex flex-wrap justify-center h-fit ">
+  <div class="flex justify-between bg-white border-2 border-gray-300 p-4 h-fit">
+    <button class=" px-16 py-4  text-2xl  border-b-2 border-yellow-400 text-white bg-yellow-600 h-fit" id="nav-Flight-tab" data-bs-toggle="tab" data-bs-target="#nav-Flight" type="button" role="tab" aria-controls="nav-Flight" aria-selected="true">
+      <span class="mr-2 im-flight-dept"></span>Flight
+    </button>
+    <button class="  text-2xl  text-yellow-600 px-16 py-4 border-b-2 border-transparent hover:border-gray-300 hover:text-black" id="nav-CheckIn-tab" data-bs-toggle="tab" data-bs-target="#nav-CheckIn" type="button" role="tab" aria-controls="nav-CheckIn" aria-selected="false">
+      <span class="mr-2 im-checkin-new"></span>Web Check-In
+    </button>
+    <button class=" text-2xl  text-yellow-600 px-16 py-4 border-b-2 border-transparent hover:border-gray-300 hover:text-black " id="nav-MyBooking-tab" data-bs-toggle="tab" data-bs-target="#nav-MyBooking" type="button" role="tab" aria-controls="nav-MyBooking" aria-selected="false">
+      <span class="mr-2 im-booking"></span>My Booking
+    </button>
+    <button class=" text-2xl  text-yellow-600 px-16 py-4 border-b-2 border-transparent hover:border-gray-300 hover:text-black " id="nav-FlightStatus-tab" data-bs-toggle="tab" data-bs-target="#nav-FlightStatus" type="button" role="tab" aria-controls="nav-FlightStatus" aria-selected="false">
+      <span class="mr-2 im-status-flight"></span>Flight Status
+    </button>
+    <button class=" text-2xl  text-yellow-600 px-16 py-4 border-b-2 border-transparent hover:border-gray-300 hover:text-black " id="nav-Schedules-tab" data-bs-toggle="tab" data-bs-target="#nav-Schedules" type="button" role="tab" aria-controls="nav-Schedules" aria-selected="false">
+      <span class="mr-2 im-date-new"></span>Schedules
+    </button>
+  </div>
+
+ 
+</nav>
+
+
+<div class="flex justify-evenly w-full ">
+  <div class="bg-white shadow-md  p-6  border-2 border-gray-300 ">
+    <div class="flex justify-evenly space-x-4 m-6">
+      <div class="flex-1">
+        <select class="w-96 h-16 border border-gray-300  px-4 py-2 ">
+          <option value="" disabled selected>From</option>
+          <option value="city1">Okara</option>
+          <option value="city2">Lahore</option>
+          <option value="city3">Karachi</option>
+        </select>
+      </div>
+      <div class="flex-1">
+        <select class="w-96 h-16 border border-gray-300  px-4 py-2 ">
+          <option value="" disabled selected >to</option>
+          <option value="city1">Karachi</option>
+          <option value="city2">Lahore</option>
+          <option value="city3">Okara</option>
+        </select>
+      </div>
+      <button class="w-96 h-16 bg-gradient-to-r from-green-900 to-yellow-400 hover:bg-blue-600 text-white font-bold py-2 px-4 ">
+        Continue
+      </button>
+    </div>
+  </div>
+  </div>
+</div>
+  <div id="slider-1" class="container mx-auto">
+    <div class="bg-cover bg-center  h-96 text-white py-24 px-10 object-fill" style="background-image: url(/images/book_umrah.jpg)">
+  
+</div> <!-- container -->
+  <br>
+  </div>
+
+  <div id="slider-2" class="container mx-auto">
+    <div class="bg-cover bg-top  h-96 text-white py-24 px-10 object-fill" style="background-image: url(/images/istanbulBanner.png)">
+   
+<
+</div> <!-- container -->
+  <br>
+  </div>
+</div>
+<div  class="flex justify-between w-12 mx-auto pb-2">
+    <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
+<button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
+</div>
+
+<!-- component -->
+
+
+
+
+
+
+<!-- component -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- banners -->
+
+
+<div class="grid grid-cols-2 gap-2 mt-52 mb-20">
+  <div class="flex justify-center items-center p-2">
+      <img src="/images/PIA_Charter.jpeg" alt="">
+  </div>
+  <div class="flex justify-center items-center p-2">
+      <img src="/images/mobile_web_checkin.jpg" alt="">
+  </div>
+  <div class="flex justify-center items-center p-2">
+      <img src="/images/junior_program.jpg" alt="">
+  </div>
+  <div class="flex justify-center items-center p-2">
+      <img src="/images/family_program.jpg" alt="">
+  </div>
+</div>
+
+
+
+
+<!-- Deals -->
+
+<div class="flex  justify-center flex-wrap gap-10">
+  <div class="p-4 md:w-full mx-52 sm:mb-0 mb-6">
+    <h1 class="text-6xl font-bold  text-blue-500 mb-4">LATEST FLIGHT DEALS</h1>
+  </div>
+  <div  class="flex h-[370px] w-[550px] hover:scale-125 transition-all duration-500 cursor-pointer style=" style =" background-image: url(/images/Skardu.jpg) ;">
+      
+<div class="absolute text-white font-bold m-6">
+  <h1 class="text-6xl" >SKARDU</h1>
+  <h5 class="text-4xl">To Islamabad</h5>
+</div>
+
+<div class="absolute text-white font-bold bg-gradient-to-r from-blue-900 to-blue-400   mt-64 p-4 hover:scale-125 transition-all duration-500 cursor-pointer">
+
+  <h1 class="text-2xl hover:text-3xl  ">Starting From PKR 26,250 + Taxes</h1>
+
+</div>
+
+<div class=" absolute ml-96 m-64 ">
+  <button class=" flex justify-center  bg-blue-600 w-32 h-8 m-2  text-white ">More Details</button>
+  <button class=" flex  justify-center bg-green-500 w-32 h-8 m-2 text-white ">Book Now</button>
+</div>
+  </div>
+
+
+  <!-- deal 2 -->
+  <div  class="flex h-[370px] w-[550px] hover:scale-125 transition-all duration-500 cursor-pointer style=" style =" background-image: url(/images/Skardu.jpg) ;">
+      
+    <div class="absolute text-white font-bold m-6">
+      <h1 class="text-6xl" >SKARDU</h1>
+      <h5 class="text-4xl">To Islamabad</h5>
+    </div>
+    
+    <div class="absolute text-white font-bold bg-gradient-to-r from-blue-900 to-blue-400   mt-64 p-4 hover:scale-125 transition-all duration-500 cursor-pointer">
+    
+      <h1 class="text-2xl hover:text-3xl  ">Starting From PKR 26,250 + Taxes</h1>
+    
+    </div>
+    
+    <div class=" absolute ml-96 m-64 ">
+      <button class=" flex justify-center  bg-blue-600 w-32 h-8 m-2  text-white ">More Details</button>
+      <button class=" flex  justify-center bg-green-500 w-32 h-8 m-2 text-white ">Book Now</button>
+    </div>
+      </div>
+
+      
+
+      <!-- deal 3 -->
+      <div  class="flex h-[370px] w-[550px] hover:scale-125 transition-all duration-500 cursor-pointer style=" style =" background-image: url(/images/Skardu.jpg) ;">
+      
+        <div class="absolute text-white font-bold m-6">
+          <h1 class="text-6xl" >SKARDU</h1>
+          <h5 class="text-4xl">To Islamabad</h5>
+        </div>
+        
+        <div class="absolute text-white font-bold bg-gradient-to-r from-blue-900 to-blue-400   mt-64 p-4 hover:scale-125 transition-all duration-500 cursor-pointer">
+        
+          <h1 class="text-2xl hover:text-3xl  ">Starting From PKR 26,250 + Taxes</h1>
+        
+        </div>
+        
+        <div class=" absolute ml-96 m-64 ">
+          <button class=" flex justify-center  bg-blue-600 w-32 h-8 m-2  text-white ">More Details</button>
+          <button class=" flex  justify-center bg-green-500 w-32 h-8 m-2 text-white ">Book Now</button>
+        </div>
+          </div>
+
+          <!-- deal 4 -->
+
+          <div  class="flex h-[370px] w-[550px] hover:scale-125 transition-all duration-500 cursor-pointer style=" style =" background-image: url(/images/Skardu.jpg) ;">
+      
+            <div class="absolute text-white font-bold m-6">
+              <h1 class="text-6xl" >SKARDU</h1>
+              <h5 class="text-4xl">To Islamabad</h5>
+            </div>
+            
+            <div class="absolute text-white font-bold bg-gradient-to-r from-blue-900 to-blue-400   mt-64 p-4 hover:scale-125 transition-all duration-500 cursor-pointer">
+            
+              <h1 class="text-2xl hover:text-3xl  ">Starting From PKR 26,250 + Taxes</h1>
+            
+            </div>
+            
+            <div class=" absolute ml-96 m-64 ">
+              <button class=" flex justify-center  bg-blue-600 w-32 h-8 m-2  text-white ">More Details</button>
+              <button class=" flex  justify-center bg-green-500 w-32 h-8 m-2 text-white ">Book Now</button>
+            </div>
+              </div>
+            
+  
+  </div>
+
+
+
+
+
+<!-- 2nd Last Section -->
+
+<section class="flex justify-center body-font mt-10">
+  <div class="flex justify-center flex-wrap sm:-m-4 -mx-10 -mb-10 -mt-4 w-full">
+    <div class="p-4 md:w-full mx-52 sm:mb-0 mb-6">
+      <h1 class="text-6xl font-bold  text-blue-500 mb-4">VALUE ADDED SERVICES</h1>
+    </div>
+    <div class=" p-4 md:w-1/4 sm:mb-0 mb-6">
+      <div class="h-64">
+        <img alt="content" class="object-cover object-center h-full w-full" src="/images/award_plus.jpg">
+      </div>
+      <h1 class="text-2xl font-bold title-font text-green-500 mt-3">AWARD +PLUS & SMILE</h1>
+      <a class="text-blue-500 font-bold inline-flex items-center mt-3 hover:text-green-500" href="#">Explore More</a>
+    </div>
+    <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+      <div class="h-64">
+        <img alt="content" class="object-cover object-center h-full w-full" src="/images/baggage.png">
+      </div>
+      <h1 class="text-2xl font-bold title-font text-green-500 mt-3">EXTRA BAGGAGE</h1>
+      <a class="text-blue-500 font-bold inline-flex items-center mt-3 hover:text-green-500" href="#">Explore More</a>
+    </div>
+    <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+      <div class="h-64">
+        <img alt="content" class="object-cover object-center h-full w-full" src="/images/upgrade.png">
+      </div>
+      <h1 class="text-2xl font-bold title-font text-green-500 mt-3">SEAT UPGRADE</h1>
+      <a class="text-blue-500 font-bold inline-flex items-center mt-3 hover:text-green-500" href="#">Explore More</a>
+    </div>
+  </div>
+</section>
+
+  
+
+
+
+
+
+<!-- FOOTER -->
+
+<!-- Footer container -->
+<footer
+  class="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+ 
+
+  <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+  <div class="mx-6 py-10 text-center md:text-left">
+    <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <!-- TW Elements section -->
+      <div class="">
+        <h6
+          class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-green-400 text-2xl">
+         
+          TW Elements
+        </h6>
+        <p>
+          Here you can use rows and columns to organize your footer
+          content. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit.
+        </p>
+      </div>
+      <!-- Products section -->
+      <div>
+        <h6
+          class="mb-4 flex justify-center font-semibold uppercase md:justify-start text-green-400 text-2xl">
+          Products
+        </h6>
+        <p class="mb-4 hover:ml-1 ">
+          <a href="#!">Angular</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">React</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">Vue</a>
+        </p>
+        <p class="hover:ml-1">
+          <a href="#!">Laravel</a>
+        </p>
+        <p class="mb-4 hover:ml-1 ">
+          <a href="#!">Angular</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">React</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">Vue</a>
+        </p>
+        <p class="hover:ml-1">
+          <a href="#!">Laravel</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">Vue</a>
+        </p>
+        <p class="hover:ml-1">
+          <a href="#!">Laravel</a>
+        </p>
+      </div>
+      <!-- Useful links section -->
+      <div>
+        <h6
+          class="mb-4 flex justify-center font-semibold uppercase md:justify-start text-green-400 text-2xl">
+          Useful links
+        </h6>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">Pricing</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">Settings</a>
+        </p>
+        <p class="mb-4 hover:ml-1">
+          <a href="#!">Orders</a>
+        </p>
+        <p class="hover:ml-1">
+          <a href="#! ">Help</a>
+        </p>
+       
+    
+      </div>
+      <!-- Contact section -->
+      <div>
+        <h6
+          class="mb-4 flex justify-center font-semibold uppercase md:justify-start text-green-400 text-2xl">
+          Connect With Us
+        </h6>
+        <div
+        class="flex items-center justify-between">
+       
+        <!-- Social network icons container -->
+        <div class="flex justify-center">
+          <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 320 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+              <path
+                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+            </svg>
+          </a>
+          <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4 ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 512 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+            </svg>
+          </a>
+          <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 488 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+              <path
+                d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+            </svg>
+          </a>
+          <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+    
+         
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const buttons = document.querySelectorAll('.relative');
+
+        buttons.forEach(function(button) {
+          const menu = button.querySelector('.absolute');
+          
+          button.addEventListener('mouseenter', function () {
+            menu.classList.remove('invisible');
+            menu.classList.add('visible', 'opacity-100');
+          });
+    
+          button.addEventListener('mouseleave', function () {
+            menu.classList.remove('visible', 'opacity-100');
+            menu.classList.add('invisible');
+          });
+        });
+      });
+
+
+
+
+      var cont=0;
+function loopSlider(){
+  var xx= setInterval(function(){
+        switch(cont)
+        {
+        case 0:{
+            $("#slider-1").fadeOut(400);
+            $("#slider-2").delay(400).fadeIn(400);
+            $("#sButton1").removeClass("bg-purple-800");
+            $("#sButton2").addClass("bg-purple-800");
+        cont=1;
+        
+        break;
+        }
+        case 1:
+        {
+        
+            $("#slider-2").fadeOut(400);
+            $("#slider-1").delay(400).fadeIn(400);
+            $("#sButton2").removeClass("bg-purple-800");
+            $("#sButton1").addClass("bg-purple-800");
+           
+        cont=0;
+        
+        break;
+        }
+        
+        
+        }},8000);
+
+}
+
+function reinitLoop(time){
+clearInterval(xx);
+setTimeout(loopSlider(),time);
+}
+
+
+
+function sliderButton1(){
+
+    $("#slider-2").fadeOut(400);
+    $("#slider-1").delay(400).fadeIn(400);
+    $("#sButton2").removeClass("bg-purple-800");
+    $("#sButton1").addClass("bg-purple-800");
+    reinitLoop(4000);
+    cont=0
+    
+    }
+    
+    function sliderButton2(){
+    $("#slider-1").fadeOut(400);
+    $("#slider-2").delay(400).fadeIn(400);
+    $("#sButton1").removeClass("bg-purple-800");
+    $("#sButton2").addClass("bg-purple-800");
+    reinitLoop(4000);
+    cont=1
+    
+    }
+
+    $(window).ready(function(){
+        $("#slider-2").hide();
+        $("#sButton1").addClass("bg-purple-800");
+        
+
+        loopSlider();
+     
+        
+    
+    
+    
+    
+    });
+
+    </script>
+
+</body>
+</html>
